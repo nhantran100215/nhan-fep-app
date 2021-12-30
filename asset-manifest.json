@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nhan-fep-app/static/css/main.57c68a71.css",
-    "main.js": "/nhan-fep-app/static/js/main.da0db4e3.js",
-    "static/media/logo.svg": "/nhan-fep-app/static/media/logo.b2e5a01e505f739f1484b881277d5186.svg",
+    "main.css": "/nhan-fep-app/static/css/main.0f346a5e.css",
+    "main.js": "/nhan-fep-app/static/js/main.e51aece4.js",
+    "static/media/login-bg.jpg": "/nhan-fep-app/static/media/login-bg.ce52ce7e2a2d5d6d680d.jpg",
     "index.html": "/nhan-fep-app/index.html",
-    "main.57c68a71.css.map": "/nhan-fep-app/static/css/main.57c68a71.css.map",
-    "main.da0db4e3.js.map": "/nhan-fep-app/static/js/main.da0db4e3.js.map"
+    "main.0f346a5e.css.map": "/nhan-fep-app/static/css/main.0f346a5e.css.map",
+    "main.e51aece4.js.map": "/nhan-fep-app/static/js/main.e51aece4.js.map"
   },
   "entrypoints": [
-    "static/css/main.57c68a71.css",
-    "static/js/main.da0db4e3.js"
+    "static/css/main.0f346a5e.css",
+    "static/js/main.e51aece4.js"
   ]
 }
