@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/nhan-fep-app/static/css/main.05360e4e.css",
-    "main.js": "/nhan-fep-app/static/js/main.62f9402b.js",
+    "main.css": "/nhan-fep-app/static/css/main.4ec7dab7.css",
+    "main.js": "/nhan-fep-app/static/js/main.b66ee69f.js",
+    "static/media/Poppins-Regular.ttf": "/nhan-fep-app/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
     "static/media/login-bg.jpg": "/nhan-fep-app/static/media/login-bg.ce52ce7e2a2d5d6d680d.jpg",
     "index.html": "/nhan-fep-app/index.html",
-    "main.05360e4e.css.map": "/nhan-fep-app/static/css/main.05360e4e.css.map",
-    "main.62f9402b.js.map": "/nhan-fep-app/static/js/main.62f9402b.js.map"
+    "main.4ec7dab7.css.map": "/nhan-fep-app/static/css/main.4ec7dab7.css.map",
+    "main.b66ee69f.js.map": "/nhan-fep-app/static/js/main.b66ee69f.js.map"
   },
   "entrypoints": [
-    "static/css/main.05360e4e.css",
-    "static/js/main.62f9402b.js"
+    "static/css/main.4ec7dab7.css",
+    "static/js/main.b66ee69f.js"
   ]
 }
