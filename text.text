@@ -1,0 +1,15 @@
+presets: [
+  require("./src/components/styles/tailwind/presets-color.js"),
+  require("./src/components/styles/tailwind/presets-animation.js"),
+  require("./src/components/styles/tailwind/presets-css.js"),
+],
+
+plugin(function ({ addBase }) {
+  addBase({
+    "@font-face": {
+      fontFamily: "poppins_regular",
+      fontWeight: 300,
+      src: 'url("../font/Poppins/Poppins-Regular.ttf")',
+    },
+  });
+}),

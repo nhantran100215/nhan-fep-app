@@ -1,18 +1,68 @@
+/* ////////////////base///////////////// */
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @layer base {
-  h1 {
-    @apply text-4xl font-bold my-3;
-  }
   h2 {
-    @apply text-3xl font-bold my-2;
+    @apply text-4xl  font-bold my-3 leading-8 mb-2 font-poppins_bold;
+  }
+  h3 {
+    @apply text-[32px]  font-bold my-2 leading-7 mb-3 font-poppins_bold;
+  }
+  label {
+    @apply text-login_page-grey text-sm font-poppins_bold;
   }
   span {
-    @apply text-base;
+    @apply text-sm leading-5 font-normal;
   }
 }
 
+/* /////////////////////////components///////////////////////////// */
+@tailwind components;
+
 @layer components {
+  .wrap {
+    @apply flex flex-row justify-center  rounded-xl flex-auto tabWF:flex-col m-12 font-poppins_regular;
+  }
+  .wrap-mobWF {
+    @apply m-0;
+  }
+  .wrap-deskWF {
+    @apply m-24;
+  }
+  /* //////////////////////////introduce//////////////////////////////////////////////////// */
+  .introduce {
+    @apply text-white h-[90vh] min-h-[600px] flex flex-col justify-between p-[50px] w-3/5 overflow-hidden relative bg-loginIntroduce rounded-l-xl  h-full bg-white;
+  }
+  .introduce-tabWF {
+    @apply w-full rounded-l-none rounded-t-xl h-full min-h-0 items-center;
+  }
+
+  .introduce-logo {
+    @apply flex justify-start items-center z-10 my-3;
+  }
+
+  /* /////////////////////////////////////////form////////////////////////////////////////////// */
+  .form {
+    @apply w-2/5 p-11 bg-white rounded-r-xl h-full flex justify-center items-center;
+  }
+  .form-tabWF {
+    @apply w-full rounded-r-none rounded-b-xl;
+  }
+}
+@font-face {
+  font-family: "poppins_bold";
+  /* src: url("../font/Poppins/Poppins-Regular.tft"); */
+  src: url("../font/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "poppins_regular";
+  src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+/* /////////////////////utilities///////////////////////////////// */
+@tailwind utilities;
+
+.ant-form-item-explain {
+  position: absolute;
+  color: red;
+  font-weight: normal;
 }
