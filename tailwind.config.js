@@ -1,5 +1,5 @@
 const plugin = require("tailwindcss/plugin");
-// import plugin from "./src/components/font/Poppins/";
+// import plugin from "./src/components/font/Poppins/"
 
 module.exports = {
   content: ["./src/**/**/*.{js,jsx,ts,tsx}"],
@@ -50,12 +50,13 @@ module.exports = {
     keyframes: {
       balloons: {
         "0%,50%,100%": { transform: "rotate(45deg)" },
-        "25%": { transform: "rotate(45deg) translate(3px,-6px)" },
-        "75%": { transform: "rotate(45deg) translate(3px,6px)" },
+        "25%": { transform: "rotate(45deg) translate(5px,-10px)" },
+        "75%": { transform: "rotate(45deg) translate(5px,10px)" },
       },
     },
     animation: {
-      balloons: " balloons 3s linear infinite",
+      balloons1: " balloons 5s linear infinite",
+      balloons2: " balloons 8s linear infinite",
     },
     fontFamily: {
       poppins_bold: ["poppins_bold", "sans-serif"],
@@ -76,13 +77,21 @@ module.exports = {
     extends: {},
   },
   plugins: [
-    plugin(function ({ addBase }) {
-      addBase({
-        "@font-face": {
-          // fontFamily: "poppins_bold",
-          // src: 'url("./src/components/font/Poppins/Poppins-Bold.ttf")',
-        },
-      });
-    }),
+    // plugin(function ({ addBase }) {
+    //   addBase({
+    //     "@font-face": {
+    //       fontFamily: "poppins_regular",
+    //       src: 'url("../font/Poppins/Poppins-Regular.ttf")',
+    //     },
+    //   });
+    // }),
+    // plugin(function ({ addBase }) {
+    //   addBase({
+    //     "@font-face": {
+    //       fontFamily: "poppins_bold",
+    //       src: 'url("../font/Poppins/Poppins-Bold.ttf") format(ttf)',
+    //     },
+    //   });
+    // }),
   ],
 };

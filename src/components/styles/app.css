@@ -11,7 +11,7 @@
     @apply text-login_page-grey text-sm font-poppins_bold;
   }
   span {
-    @apply text-sm leading-5 font-normal;
+    @apply text-sm leading-3 font-normal;
   }
 }
 
@@ -50,7 +50,6 @@
 }
 @font-face {
   font-family: "poppins_bold";
-  /* src: url("../font/Poppins/Poppins-Regular.tft"); */
   src: url("../font/Poppins/Poppins-Bold.ttf");
 }
 

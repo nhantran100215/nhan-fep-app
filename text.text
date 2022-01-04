@@ -13,3 +13,11 @@ plugin(function ({ addBase }) {
     },
   });
 }),
+
+.login-wrapper .login-aside-left:after {
+    background: #2a68cd;
+    right: -30px;
+    top: -30px;
+    -webkit-animation: dzMove1 8s linear infinite;
+    animation: dzMove1 8s linear infinite;
+}

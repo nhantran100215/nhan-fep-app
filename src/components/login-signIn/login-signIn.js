@@ -3,9 +3,10 @@ import "../styles/app.css";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { Form, Input, Button, Checkbox } from "antd";
+
 // import {test} from "../font/Poppins/"
 
-const loginPage = () => {
+const LoginPage = () => {
   const introduce_text = {
     company_name: "Griya",
     welcom: {
@@ -21,10 +22,7 @@ const loginPage = () => {
 
   const onFinish = (values) => {
     if (values !== undefined) {
-      // values.user.rememberMe = remember;
       console.log(values);
-      // setUser(values);
-      // SetCheckResults(true);
     }
   };
 
@@ -110,13 +108,13 @@ const loginPage = () => {
 
               {/* social network     */}
               <div className="flex">
-                <div className="w-[45px] h-[45px] bg-login_page-transparentLight rounded-xl m-3 flex justify-center items-center hover:bg-white hover:text-black duration-500 ease-linear ">
+                <div className="w-11 h-11 bg-login_page-transparentLight rounded-xl m-3 flex justify-center items-center hover:bg-white hover:text-black duration-500 ease-linear ">
                   <FaFacebookF className="text-lg " />
                 </div>
-                <div className="w-[45px] h-[45px] bg-login_page-transparentLight rounded-xl m-3 flex justify-center items-center hover:bg-white hover:text-black duration-500 ease-linear ">
+                <div className="w-11 h-11 bg-login_page-transparentLight rounded-xl m-3 flex justify-center items-center hover:bg-white hover:text-black duration-500 ease-linear ">
                   <AiOutlineTwitter className="text-lg " />
                 </div>
-                <div className="w-[45px] h-[45px] bg-login_page-transparentLight rounded-xl m-3 flex justify-center items-center hover:bg-white hover:text-black duration-500 ease-linear ">
+                <div className="w-11 h-11 bg-login_page-transparentLight rounded-xl m-3 flex justify-center items-center hover:bg-white hover:text-black duration-500 ease-linear ">
                   <FaLinkedinIn className="text-lg " />
                 </div>
               </div>
@@ -124,14 +122,15 @@ const loginPage = () => {
               <span>{introduce_text.author.sub}</span>
             </div>
           </div>
-
+          {/* decoration */}
+          {/* above */}
           <div
-            className=" absolute right-[-30px] top-[-30px] rotate-45 z-0 animate-balloons
+            className=" absolute right-[-30px] top-[-30px] rotate-45 z-0 animate-balloons2
           w-[150px] h-[150px] bg-login_page-500 rounded-xl shadow-decorationblock"
           ></div>
-
+          {/* up */}
           <div
-            className=" absolute left-[-35px] top-[30%] rotate-45 z-0 animate-balloons
+            className=" absolute left-[-35px] top-[30%] rotate-45 z-0 animate-balloons1
           w-[150px] h-[150px] bg-login_page-100 rounded-xl shadow-decorationblock"
           ></div>
         </div>
@@ -258,4 +257,4 @@ const loginPage = () => {
   );
 };
 
-export default loginPage;
+export default LoginPage;
