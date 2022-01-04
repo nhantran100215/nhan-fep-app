@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/nhan-fep-app/static/css/main.e524b110.css",
-    "main.js": "/nhan-fep-app/static/js/main.5a082c8c.js",
-    "static/media/Poppins-Regular.ttf": "/nhan-fep-app/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
-    "static/media/Poppins-Bold.ttf": "/nhan-fep-app/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
-    "static/media/login-bg.jpg": "/nhan-fep-app/static/media/login-bg.ce52ce7e2a2d5d6d680d.jpg",
+    "main.css": "/nhan-fep-app/static/css/main.073c9b0a.css",
+    "main.js": "/nhan-fep-app/static/js/main.0419b1e5.js",
+    "static/js/787.489a6330.chunk.js": "/nhan-fep-app/static/js/787.489a6330.chunk.js",
+    "static/media/logo.svg": "/nhan-fep-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nhan-fep-app/index.html",
-    "main.e524b110.css.map": "/nhan-fep-app/static/css/main.e524b110.css.map",
-    "main.5a082c8c.js.map": "/nhan-fep-app/static/js/main.5a082c8c.js.map"
+    "main.073c9b0a.css.map": "/nhan-fep-app/static/css/main.073c9b0a.css.map",
+    "main.0419b1e5.js.map": "/nhan-fep-app/static/js/main.0419b1e5.js.map",
+    "787.489a6330.chunk.js.map": "/nhan-fep-app/static/js/787.489a6330.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e524b110.css",
-    "static/js/main.5a082c8c.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0419b1e5.js"
   ]
 }
